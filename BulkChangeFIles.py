@@ -1,7 +1,7 @@
 import os
 counter = 0
 # change path after r
-path = r"/mnt/c/Users/kaan/OneDrive/Documenten/demannen"
+path = r"/mnt/c/Users/"
 files = [] 
 os.chdir(path)
 for file_name in os.listdir (path):
